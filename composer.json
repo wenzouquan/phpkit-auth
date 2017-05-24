@@ -1,6 +1,6 @@
 {
     "name": "phpkit/auth",
-    "description": "权限控制",
+    "description": "权限控制,基于phalcon开发",
     "type": "project",
     "keywords": [
         "pay"
