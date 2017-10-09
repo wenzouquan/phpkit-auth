@@ -1,10 +1,10 @@
 <?php
 namespace phpkit\auth\models;
 
-class AddonAuth extends \phpkit\core\BaseModel {
+class AddonAuth extends \phpkit\base\BaseModel {
 	protected $GroupName;
 	protected $GroupList;
-	public function initialize() {
+	public function initialize($db = '') {
 		parent::initialize();
 	}
 

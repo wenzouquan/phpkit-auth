@@ -1,6 +1,6 @@
 <?php
 namespace phpkit\auth\models;
-class AddonAuthUserRoles extends \phpkit\core\BaseModel {
+class AddonAuthUserRoles extends \phpkit\base\BaseModel {
 	protected $AuthIds;
 	public function initialize() {
 		parent::initialize();
