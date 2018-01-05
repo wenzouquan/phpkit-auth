@@ -4,9 +4,7 @@ namespace phpkit\auth\models;
 class AddonAuth extends \phpkit\base\BaseModel {
 	protected $GroupName;
 	protected $GroupList;
-	public function initialize($db = '') {
-		parent::initialize();
-	}
+	 
 
 	//所有权限
 	public function getAuthList() {
